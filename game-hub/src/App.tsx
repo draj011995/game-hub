@@ -5,6 +5,7 @@ function App() {
   return (
     <Grid
       templateAreas={{
+        // to adjust the screen responsiveness
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`,
       }}
